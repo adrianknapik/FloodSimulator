@@ -27,3 +27,4 @@
 /Users/knapikadrian/Documents/GitHub/FloodSimulator/obj/Debug/net9.0/FloodSimulator.pdb
 /Users/knapikadrian/Documents/GitHub/FloodSimulator/obj/Debug/net9.0/FloodSimulator.genruntimeconfig.cache
 /Users/knapikadrian/Documents/GitHub/FloodSimulator/obj/Debug/net9.0/ref/FloodSimulator.dll
+/Users/knapikadrian/Documents/GitHub/FloodSimulator/obj/Debug/net9.0/FloodSimulator.sourcelink.json
