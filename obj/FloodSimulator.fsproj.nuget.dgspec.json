@@ -45,6 +45,16 @@
               "target": "Package",
               "version": "[9.0.101, )",
               "generatePathProperty": true
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )",
+              "generatePathProperty": true
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )",
+              "generatePathProperty": true
             }
           },
           "imports": [
