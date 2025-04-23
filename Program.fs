@@ -142,6 +142,17 @@ let rec getUserCountry () =
     else
         input
 
+/// Asks the user if they want to try again
+let rec askTryAgain () =
+    printf "\nWould you like to try again? (yes/no): "
+    let input = Console.ReadLine().Trim().ToLower()
+    match input with
+    | "yes" | "y" -> true
+    | "no" | "n" -> false
+    | _ ->
+        printfn "Invalid input. Please enter 'yes' or 'no'."
+        askTryAgain()
+
 /// Runs the flood simulation with the given parameters
 let runSimulation endDate lat lon =
     let initialRiver = { 
@@ -202,24 +213,32 @@ let runSimulation endDate lat lon =
         outputPath
     
     printfn "\nVisualization saved to %s/index.html" outputPath
-    0
 
 [<EntryPoint>]
 let main argv =
-    let endDate = getUserDate()
-    let city = getUserCity()
-    let country = getUserCountry()
+    let rec runProgram () =
+        let endDate = getUserDate()
+        let city = getUserCity()
+        let country = getUserCountry()
+        
+        printfn "\nKoordináták lekérése %s, %s számára..." city country
+        let coordinates = 
+            WeatherApi.getCoordinates city country 
+            |> Async.RunSynchronously
+        
+        match coordinates with
+        | None ->
+            printfn "Nem sikerült megtalálni a koordinátákat. Használom az alapértelmezett értékeket."
+            let lat, lon = 47.5, 19.0  // Default to Budapest
+            runSimulation endDate lat lon
+        | Some (lat, lon) ->
+            printfn "Koordináták: %.2f, %.2f" lat lon
+            runSimulation endDate lat lon
+        
+        if askTryAgain() then
+            runProgram()
+        else
+            printfn "\nThank you for using the Flood Simulator!"
+            0
     
-    printfn "\nKoordináták lekérése %s, %s számára..." city country
-    let coordinates = 
-        WeatherApi.getCoordinates city country 
-        |> Async.RunSynchronously
-    
-    match coordinates with
-    | None ->
-        printfn "Nem sikerült megtalálni a koordinátákat. Használom az alapértelmezett értékeket."
-        let lat, lon = 47.5, 19.0  // Default to Budapest
-        runSimulation endDate lat lon
-    | Some (lat, lon) ->
-        printfn "Koordináták: %.2f, %.2f" lat lon
-        runSimulation endDate lat lon
+    runProgram()
