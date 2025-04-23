@@ -12,11 +12,17 @@ A sophisticated flood simulation program that predicts river flooding based on w
   - Flood risk gauge
   - Temperature comparison graphs
   - Average temperature display
-- **Comprehensive Analysis**:
   - Soil moisture tracking
+- **Comprehensive Analysis**:
+  - Soil moisture tracking with real data from Open-Meteo API
   - Runoff coefficient calculations
   - Temperature trend analysis
   - Flood risk assessment
+- **User-Friendly Interface**:
+  - Interactive retry option
+  - Clear error messages
+  - Input validation
+  - Progress feedback
 
 ## Technical Details
 
@@ -45,6 +51,9 @@ A sophisticated flood simulation program that predicts river flooding based on w
    - Retrieve historical weather data
    - Run the flood simulation
    - Generate visualizations
+6. Choose whether to:
+   - Try again with new inputs
+   - Exit the program
 
 ## Output
 
@@ -54,12 +63,13 @@ The program generates an HTML report in the `simulation_results` directory conta
 - Current flood risk gauge
 - Temperature analysis with predicted vs actual temperatures
 - Projected average temperature
+- Soil moisture tracking
 
 ## Simulation Parameters
 
 - Simulation period: 14 days
 - Historical data: 5 years of temperature data
-- Soil moisture: Initial value of 50%
+- Soil moisture: Real data from Open-Meteo API
 - River capacity: 10 meters
 - Initial river level: 2 meters
 
@@ -71,6 +81,8 @@ The program includes robust error handling for:
 - Geocoding failures
 - Weather API errors
 - Invalid coordinate formats
+- Invalid retry inputs
+- Empty city/country names
 
 ## Default Values
 
@@ -78,11 +90,3 @@ If geocoding fails, the program defaults to:
 
 - Latitude: 47.5°N
 - Longitude: 19.0°E (Budapest, Hungary)
-
-## Contributing
-
-Feel free to submit issues and enhancement requests!
-
-## License
-
-This project is open source and available under the MIT License.
