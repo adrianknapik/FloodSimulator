@@ -55,6 +55,11 @@
               "target": "Package",
               "version": "[8.0.0, )",
               "generatePathProperty": true
+            },
+            "XPlot.Plotly": {
+              "target": "Package",
+              "version": "[4.1.0, )",
+              "generatePathProperty": true
             }
           },
           "imports": [

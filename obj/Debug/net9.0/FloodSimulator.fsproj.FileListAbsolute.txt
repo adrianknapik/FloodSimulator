@@ -28,3 +28,5 @@
 /Users/knapikadrian/Documents/GitHub/FloodSimulator/obj/Debug/net9.0/FloodSimulator.genruntimeconfig.cache
 /Users/knapikadrian/Documents/GitHub/FloodSimulator/obj/Debug/net9.0/ref/FloodSimulator.dll
 /Users/knapikadrian/Documents/GitHub/FloodSimulator/obj/Debug/net9.0/FloodSimulator.sourcelink.json
+/Users/knapikadrian/Documents/GitHub/FloodSimulator/bin/Debug/net9.0/Newtonsoft.Json.dll
+/Users/knapikadrian/Documents/GitHub/FloodSimulator/bin/Debug/net9.0/XPlot.Plotly.dll

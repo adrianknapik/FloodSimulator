@@ -13,8 +13,9 @@
     <SourceRoot Include="/Users/knapikadrian/.nuget/packages/" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgFSharp_Core Condition=" '$(PkgFSharp_Core)' == '' ">/Users/knapikadrian/.nuget/packages/fsharp.core/9.0.101</PkgFSharp_Core>
+    <PkgXPlot_Plotly Condition=" '$(PkgXPlot_Plotly)' == '' ">/Users/knapikadrian/.nuget/packages/xplot.plotly/4.1.0</PkgXPlot_Plotly>
     <PkgSystem_Text_Json Condition=" '$(PkgSystem_Text_Json)' == '' ">/Users/knapikadrian/.nuget/packages/system.text.json/8.0.0</PkgSystem_Text_Json>
     <PkgSystem_Net_Http Condition=" '$(PkgSystem_Net_Http)' == '' ">/Users/knapikadrian/.nuget/packages/system.net.http/4.3.4</PkgSystem_Net_Http>
-    <PkgFSharp_Core Condition=" '$(PkgFSharp_Core)' == '' ">/Users/knapikadrian/.nuget/packages/fsharp.core/9.0.101</PkgFSharp_Core>
   </PropertyGroup>
 </Project>

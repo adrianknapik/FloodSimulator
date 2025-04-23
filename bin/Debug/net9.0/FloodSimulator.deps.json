@@ -10,7 +10,8 @@
         "dependencies": {
           "FSharp.Core": "9.0.101",
           "System.Net.Http": "4.3.4",
-          "System.Text.Json": "8.0.0"
+          "System.Text.Json": "8.0.0",
+          "XPlot.Plotly": "4.1.0"
         },
         "runtime": {
           "FloodSimulator.dll": {}
@@ -67,6 +68,14 @@
       },
       "Microsoft.NETCore.Platforms/1.1.1": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {},
       "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {},
       "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {},
@@ -462,6 +471,18 @@
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
         }
+      },
+      "XPlot.Plotly/4.1.0": {
+        "dependencies": {
+          "FSharp.Core": "9.0.101",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/XPlot.Plotly.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "4.1.0.0"
+          }
+        }
       }
     }
   },
@@ -491,6 +512,13 @@
       "sha512": "sha512-aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
       "path": "microsoft.netcore.targets/1.1.0",
       "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
       "type": "package",
@@ -834,6 +862,13 @@
       "sha512": "sha512-LbSxKEdOUhVe8BezB/9uOGGppt+nZf6e1VFyw6v3DN6lqitm0OSn2uXMOdtP0M3W4iMcqcivm2J6UgqiwwnXiA==",
       "path": "system.threading.tasks/4.3.0",
       "hashPath": "system.threading.tasks.4.3.0.nupkg.sha512"
+    },
+    "XPlot.Plotly/4.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-J2SfXzZDJBSK4R8JAIO7hZiwAH0uC8hgkBqaREJ8ieP+KpcmDCW6DZAvYHI/ox+N+XWjVfdovyjauveP6ZBN6Q==",
+      "path": "xplot.plotly/4.1.0",
+      "hashPath": "xplot.plotly.4.1.0.nupkg.sha512"
     }
   }
 }
