@@ -2,6 +2,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FloodSimulator.Web", "FloodSimulator.Web\FloodSimulator.Web.fsproj", "{A1B2C3D4-E5F6-4A5B-8C7D-9E0F1A2B3C4D}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FloodSimulator.WebService", "FloodSimulator.WebService\FloodSimulator.WebService.fsproj", "{B2C3D4E5-F6A7-5B4C-9D8E-0F1A2B3C4D5E}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FloodSimulator.Tests", "FloodSimulator.Tests\FloodSimulator.Tests.csproj", "{D8117090-DB2D-3719-CD7C-339981EB1543}"
 EndProject
 Global
@@ -10,6 +14,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1B2C3D4-E5F6-4A5B-8C7D-9E0F1A2B3C4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B2C3D4-E5F6-4A5B-8C7D-9E0F1A2B3C4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1B2C3D4-E5F6-4A5B-8C7D-9E0F1A2B3C4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1B2C3D4-E5F6-4A5B-8C7D-9E0F1A2B3C4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2C3D4E5-F6A7-5B4C-9D8E-0F1A2B3C4D5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2C3D4E5-F6A7-5B4C-9D8E-0F1A2B3C4D5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2C3D4E5-F6A7-5B4C-9D8E-0F1A2B3C4D5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2C3D4E5-F6A7-5B4C-9D8E-0F1A2B3C4D5E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D8117090-DB2D-3719-CD7C-339981EB1543}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D8117090-DB2D-3719-CD7C-339981EB1543}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8117090-DB2D-3719-CD7C-339981EB1543}.Release|Any CPU.ActiveCfg = Release|Any CPU

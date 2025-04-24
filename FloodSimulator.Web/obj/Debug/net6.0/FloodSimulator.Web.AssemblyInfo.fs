@@ -7,11 +7,11 @@ open System
 open System.Reflection
 
 
-[<assembly: System.Reflection.AssemblyCompanyAttribute("FloodSimulator.WebService")>]
+[<assembly: System.Reflection.AssemblyCompanyAttribute("FloodSimulator.Web")>]
 [<assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")>]
 [<assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")>]
 [<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c0cc7ef68403938c1d50779b7d470f8628c80be1")>]
-[<assembly: System.Reflection.AssemblyProductAttribute("FloodSimulator.WebService")>]
-[<assembly: System.Reflection.AssemblyTitleAttribute("FloodSimulator.WebService")>]
+[<assembly: System.Reflection.AssemblyProductAttribute("FloodSimulator.Web")>]
+[<assembly: System.Reflection.AssemblyTitleAttribute("FloodSimulator.Web")>]
 [<assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")>]
 do()
