@@ -10,7 +10,7 @@ open System.Reflection
 [<assembly: System.Reflection.AssemblyCompanyAttribute("FloodSimulator")>]
 [<assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")>]
 [<assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")>]
-[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9db7fcd01b5c287f162979b75c0615f076151cc4")>]
+[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a8520a223d2f448108a62aba61227be4c0b88994")>]
 [<assembly: System.Reflection.AssemblyProductAttribute("FloodSimulator")>]
 [<assembly: System.Reflection.AssemblyTitleAttribute("FloodSimulator")>]
 [<assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")>]

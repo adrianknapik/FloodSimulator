@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/FloodSimulator.WebService/index.7syw7tybrs.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7syw7tybrs"},{"Name":"integrity","Value":"sha256-6awIetnQKsCZCUZDqiP6Q1Wzt760S1b1cDUnawMLcm4="},{"Name":"label","Value":"_content/FloodSimulator.WebService/index.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7220"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u00226awIetnQKsCZCUZDqiP6Q1Wzt760S1b1cDUnawMLcm4=\u0022"},{"Name":"Last-Modified","Value":"Thu, 24 Apr 2025 21:22:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/FloodSimulator.WebService/index.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-6awIetnQKsCZCUZDqiP6Q1Wzt760S1b1cDUnawMLcm4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"7220"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u00226awIetnQKsCZCUZDqiP6Q1Wzt760S1b1cDUnawMLcm4=\u0022"},{"Name":"Last-Modified","Value":"Thu, 24 Apr 2025 21:22:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

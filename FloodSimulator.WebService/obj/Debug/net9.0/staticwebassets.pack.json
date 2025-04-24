@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/knapikadrian/Documents/GitHub/FloodSimulator/FloodSimulator.WebService/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.FloodSimulator.WebService.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.FloodSimulator.WebService.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.build.FloodSimulator.WebService.props",
+      "PackagePath": "build\\FloodSimulator.WebService.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.FloodSimulator.WebService.props",
+      "PackagePath": "buildMultiTargeting\\FloodSimulator.WebService.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.FloodSimulator.WebService.props",
+      "PackagePath": "buildTransitive\\FloodSimulator.WebService.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

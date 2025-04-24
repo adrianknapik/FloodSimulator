@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/FloodSimulator.WebService.props" />
+</Project>

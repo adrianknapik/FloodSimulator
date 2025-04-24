@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "Wkirwu6xwn0p4MBaZ7i5/3tK+0zQomDx8a9C8qtHzbo=",
+  "Source": "FloodSimulator.WebService",
+  "BasePath": "_content/FloodSimulator.WebService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Types.fs" />
+    <Compile Include="App.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Fable.Core" Version="3.7.0" />
+    <PackageReference Include="Fable.Browser.Dom" Version="1.0.0" />
+    <PackageReference Include="Fable.Plotly" Version="1.0.0" />
+  </ItemGroup>
+</Project> 

@@ -1,0 +1,6 @@
+/Users/knapikadrian/Documents/GitHub/FloodSimulator/FloodSimulator.WebService/obj/Debug/net6.0/FloodSimulator.WebService.fsproj.AssemblyReference.cache
+/Users/knapikadrian/Documents/GitHub/FloodSimulator/FloodSimulator.WebService/obj/Debug/net6.0/FloodSimulator.WebService.AssemblyInfoInputs.cache
+/Users/knapikadrian/Documents/GitHub/FloodSimulator/FloodSimulator.WebService/obj/Debug/net6.0/FloodSimulator.WebService.AssemblyInfo.fs
+/Users/knapikadrian/Documents/GitHub/FloodSimulator/FloodSimulator.WebService/obj/Debug/net6.0/FloodSimulator.WebService.fsproj.CoreCompileInputs.cache
+/Users/knapikadrian/Documents/GitHub/FloodSimulator/FloodSimulator.WebService/obj/Debug/net6.0/FloodSimulator.WebService.MvcApplicationPartsAssemblyInfo.cache
+/Users/knapikadrian/Documents/GitHub/FloodSimulator/FloodSimulator.WebService/obj/Debug/net6.0/FloodSimulator.WebService.sourcelink.json

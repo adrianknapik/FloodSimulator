@@ -1,0 +1,362 @@
+{
+  "Version": 1,
+  "Hash": "tiQrXpECTl7kL6vq04/dxE36a6pxCZxciS0swovQIpY=",
+  "Source": "FloodSimulator.WebService",
+  "BasePath": "_content/FloodSimulator.WebService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "FloodSimulator.WebService/wwwroot",
+      "Source": "FloodSimulator.WebService",
+      "ContentRoot": "/Users/knapikadrian/Documents/GitHub/FloodSimulator/FloodSimulator.WebService/wwwroot/",
+      "BasePath": "_content/FloodSimulator.WebService",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/knapikadrian/Documents/GitHub/FloodSimulator/FloodSimulator.WebService/obj/Debug/net9.0/compressed/fq1ygjpc4i-7syw7tybrs.gz",
+      "SourceId": "FloodSimulator.WebService",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/knapikadrian/Documents/GitHub/FloodSimulator/FloodSimulator.WebService/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/FloodSimulator.WebService",
+      "RelativePath": "index#[.{fingerprint=7syw7tybrs}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/knapikadrian/Documents/GitHub/FloodSimulator/FloodSimulator.WebService/wwwroot/index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "5j3l3je8sq",
+      "Integrity": "3wuxYFkrM7i4Y/Vhey2mSY9OJTP71EJgn7/fvQpUDUQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/knapikadrian/Documents/GitHub/FloodSimulator/FloodSimulator.WebService/wwwroot/index.html"
+    },
+    {
+      "Identity": "/Users/knapikadrian/Documents/GitHub/FloodSimulator/FloodSimulator.WebService/wwwroot/index.html",
+      "SourceId": "FloodSimulator.WebService",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/knapikadrian/Documents/GitHub/FloodSimulator/FloodSimulator.WebService/wwwroot/",
+      "BasePath": "_content/FloodSimulator.WebService",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7syw7tybrs",
+      "Integrity": "6awIetnQKsCZCUZDqiP6Q1Wzt760S1b1cDUnawMLcm4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "index.7syw7tybrs.html",
+      "AssetFile": "/Users/knapikadrian/Documents/GitHub/FloodSimulator/FloodSimulator.WebService/obj/Debug/net9.0/compressed/fq1ygjpc4i-7syw7tybrs.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000759878419"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1315"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3wuxYFkrM7i4Y/Vhey2mSY9OJTP71EJgn7/fvQpUDUQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 21:22:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"6awIetnQKsCZCUZDqiP6Q1Wzt760S1b1cDUnawMLcm4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7syw7tybrs"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6awIetnQKsCZCUZDqiP6Q1Wzt760S1b1cDUnawMLcm4="
+        }
+      ]
+    },
+    {
+      "Route": "index.7syw7tybrs.html",
+      "AssetFile": "/Users/knapikadrian/Documents/GitHub/FloodSimulator/FloodSimulator.WebService/wwwroot/index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7220"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6awIetnQKsCZCUZDqiP6Q1Wzt760S1b1cDUnawMLcm4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 21:22:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7syw7tybrs"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6awIetnQKsCZCUZDqiP6Q1Wzt760S1b1cDUnawMLcm4="
+        }
+      ]
+    },
+    {
+      "Route": "index.7syw7tybrs.html.gz",
+      "AssetFile": "/Users/knapikadrian/Documents/GitHub/FloodSimulator/FloodSimulator.WebService/obj/Debug/net9.0/compressed/fq1ygjpc4i-7syw7tybrs.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1315"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3wuxYFkrM7i4Y/Vhey2mSY9OJTP71EJgn7/fvQpUDUQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 21:22:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7syw7tybrs"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3wuxYFkrM7i4Y/Vhey2mSY9OJTP71EJgn7/fvQpUDUQ="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "/Users/knapikadrian/Documents/GitHub/FloodSimulator/FloodSimulator.WebService/obj/Debug/net9.0/compressed/fq1ygjpc4i-7syw7tybrs.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000759878419"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1315"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3wuxYFkrM7i4Y/Vhey2mSY9OJTP71EJgn7/fvQpUDUQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 21:22:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"6awIetnQKsCZCUZDqiP6Q1Wzt760S1b1cDUnawMLcm4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6awIetnQKsCZCUZDqiP6Q1Wzt760S1b1cDUnawMLcm4="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "/Users/knapikadrian/Documents/GitHub/FloodSimulator/FloodSimulator.WebService/wwwroot/index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7220"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6awIetnQKsCZCUZDqiP6Q1Wzt760S1b1cDUnawMLcm4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 21:22:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6awIetnQKsCZCUZDqiP6Q1Wzt760S1b1cDUnawMLcm4="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "/Users/knapikadrian/Documents/GitHub/FloodSimulator/FloodSimulator.WebService/obj/Debug/net9.0/compressed/fq1ygjpc4i-7syw7tybrs.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1315"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3wuxYFkrM7i4Y/Vhey2mSY9OJTP71EJgn7/fvQpUDUQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 21:22:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3wuxYFkrM7i4Y/Vhey2mSY9OJTP71EJgn7/fvQpUDUQ="
+        }
+      ]
+    }
+  ]
+}
