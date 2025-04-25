@@ -1,92 +1,65 @@
-# Flood Simulator
+# Flood Simulation System
 
-A sophisticated flood simulation program that predicts river flooding based on weather conditions, soil moisture, and historical temperature data. The program uses real-world weather data and geocoding to provide accurate simulations for any location.
+## Overview
 
-## Features
+This project is a **preliminary** flood simulation system built with F# that models river behavior based on weather conditions, soil moisture, and historical data. Key features include **simulation methods** for predicting river levels and flood risks, and a **web service** integrating external APIs (OpenStreetMap Nominatim and Open-Meteo) for real-world data.
 
-- **Location-Based Simulation**: Input any city and country to get location-specific flood predictions
-- **Historical Weather Data**: Uses 5 years of historical temperature data for accurate predictions
-- **Real-Time Geocoding**: Automatically fetches coordinates for any location using OpenStreetMap
-- **Interactive Visualizations**:
-  - River level and rainfall charts
-  - Flood risk gauge
-  - Temperature comparison graphs
-  - Average temperature display
-  - Soil moisture tracking
-- **Comprehensive Analysis**:
-  - Soil moisture tracking with real data from Open-Meteo API
-  - Runoff coefficient calculations
-  - Temperature trend analysis
-  - Flood risk assessment
-- **User-Friendly Interface**:
-  - Interactive retry option
-  - Clear error messages
-  - Input validation
-  - Progress feedback
+## Try It Live
 
-## Technical Details
+Experience the application live at [http://knapkom.com/due/fsharp/](http://knapkom.com/due/fsharp/).
 
-### Dependencies
+## Screenshots
 
-- F# (.NET)
-- XPlot.Plotly (for visualizations)
-- OpenStreetMap Nominatim API (for geocoding)
-- Open-Meteo API (for historical weather data)
+Below are placeholders for screenshots of the application.
 
-### Project Structure
+- **Dashboard**:  
+  ![Homepage Screenshot](http://knapkom.com/due/fsharp/images/Dashboard.png)
 
-- `Program.fs`: Main program logic and user interaction
-- `WeatherApi.fs`: Weather data fetching and processing
-- `Visualization.fs`: Chart generation and HTML output
-- `Types.fs`: Type definitions for the simulation
+- **Dashboard With Simulation Results**:  
+  ![Simulation Results Screenshot](http://knapkom.com/due/fsharp/images/DashboardWStats.png)
 
-## Usage
+- **Graph With Simulation Results**:
+  ![Simulation Results Screenshot2](http://knapkom.com/due/fsharp/images/Graphs.png)
 
-1. Run the program
-2. Enter a date in YYYY-MM-DD format
-3. Enter a city name
-4. Enter a country name
-5. The program will:
-   - Fetch coordinates for the location
-   - Retrieve historical weather data
-   - Run the flood simulation
-   - Generate visualizations
-6. Choose whether to:
-   - Try again with new inputs
-   - Exit the program
+## Main Features
 
-## Output
+### Simulation Methods
 
-The program generates an HTML report in the `simulation_results` directory containing:
+The simulation methods model river dynamics and flood risk:
 
-- River level and rainfall charts
-- Current flood risk gauge
-- Temperature analysis with predicted vs actual temperatures
-- Projected average temperature
-- Soil moisture tracking
+- **River Level Updates**: The `updateRiverLevel` function calculates inflow (rainfall, groundwater) and outflow based on river levels, using a runoff coefficient from soil moisture.
+- **Soil Moisture Dynamics**: The `updateSoilMoisture` function adjusts moisture based on rainfall and evaporation.
+- **Flood Risk Assessment**: The `checkFloodRisk` and `estimateFloodRiskFromTemp` functions evaluate risks using river level thresholds.
+- **Historical Data Integration**: Historical temperature and soil moisture data are fetched and processed to inform predictions (`calculateStats`, `predictTemps`).
 
-## Simulation Parameters
+These are orchestrated in the `simulateRiver` function, running time-based simulations with random weather and predicted temperatures.
 
-- Simulation period: 14 days
-- Historical data: 5 years of temperature data
-- Soil moisture: Real data from Open-Meteo API
-- River capacity: 10 meters
-- Initial river level: 2 meters
+### Web Service
 
-## Error Handling
+External APIs enhance simulation accuracy:
 
-The program includes robust error handling for:
+- **OpenStreetMap Nominatim API**: The `getCoordinates` function retrieves location-specific coordinates.
+- **Open-Meteo API**: The `fetchHistoricalData` function pulls historical weather and soil moisture data, parsed via `parseHistoricalData`.
+- Asynchronous integration ensures efficient data retrieval.
 
-- Invalid date formats
-- Geocoding failures
-- Weather API errors
-- Invalid coordinate formats
-- Invalid retry inputs
-- Empty city/country names
+## Simulation Example
 
-## Default Values
+To run a simulation, the system uses a `SimulationRequest` object. Example:
 
-If geocoding fails, the program defaults to:
+```f#
+let request = { City = "London"; Country = "UK"; Date = "2025-04-25"; ForecastDays = 14 }
+let result = Simulation.runSimulation request
+```
 
-- Latitude: 47.5°N
-- Longitude: 19.0°E (Budapest, Hungary)
+This returns a `SimulationResult` with average temperature, soil moisture, river levels, rainfall, and flood risk.
+
+## Potential Future Development
+
+As a preliminary application, future plans include building a **full-scale web application** using **WebSharper**:
+
+- **Interactive UI**: Real-time visualizations of river levels and flood risks.
+- **User Inputs**: Web forms for simulation parameters.
+- **Real-Time Data**: Live weather feeds for dynamic assessments.
+- **Scalability**: Support for multiple simulations via WebSharper’s reactive model.
+- **Authentication**: User accounts for saving simulation data.
+- **Deployment**: Cloud-hosted global access.
