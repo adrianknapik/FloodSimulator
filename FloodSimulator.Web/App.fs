@@ -5,7 +5,6 @@ open Fable.Core.JsInterop
 open Browser.Dom
 open Browser.Types
 open Types
-open Fable.Plotly
 
 let private getElementById id = document.getElementById id :?> HTMLElement
 let private getInputValue id = (document.getElementById id :?> HTMLInputElement).value

@@ -51,7 +51,7 @@ let configureApp (app: IApplicationBuilder) =
     app.UseDefaultFiles()
        .UseStaticFiles(staticFileOptions)
        .UseCors(fun builder ->
-           builder.WithOrigins("http://localhost:5000", "http://localhost:5001", "http://127.0.0.1:5500")
+           builder.AllowAnyOrigin()
                  .AllowAnyMethod()
                  .AllowAnyHeader()
                  |> ignore)
